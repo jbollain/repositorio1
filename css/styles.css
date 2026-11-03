@@ -1,0 +1,42 @@
+:root {
+  /* Paleta cromática */
+  --color-primary: #1b365d;
+  --color-primary-light: #2c5282;
+  --color-secondary: #007bff;
+  --color-accent: #0097a7;
+  --color-bg: #f4f4f9;
+  --color-surface: #ffffff;
+  --color-text: #333333;
+  --color-text-muted: #666666;
+  --color-border: #cccccc;
+
+  /* Tipografías */
+  --font-primary: "Open Sans", system-ui, -apple-system, sans-serif;
+  --font-heading: "Montserrat", Georgia, serif;
+
+  /* Espaciados relativos (min 8px/16px) */
+  --spacing-xs: 0.5rem; /* 8px */
+  --spacing-sm: 1rem; /* 16px */
+  --spacing-md: 1.5rem; /* 24px */
+  --spacing-lg: 2rem; /* 32px */
+
+  /* Sombras y bordes */
+  --border-radius: 6px;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --transition-fast: 0.2s ease-in-out;
+}
+
+/* ==========================================
+   2. CSS RESET Y REGLAS GENERALES
+   ========================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: --color-primary;
+}
